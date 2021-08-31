@@ -34,7 +34,7 @@ actions.playpause = function()
 end
 
 actions.close = function()
-  script.default("killall -9 Popcorn-Time-Ru && killall -9 mpv");
+  script.default("killall -9 popcorntime && killall -9 mpv");
 end
 
 actions.left = function()
@@ -51,10 +51,6 @@ end
 
 actions.down = function()
 	kb.stroke("down");
-end
-
-actions.search = function()
-	server.update({id = "go", type="input", ontap="doSearch", title="Search"});
 end
 
 actions.bookmarks = function()
@@ -74,7 +70,7 @@ actions.previousseason = function()
 end
 
 actions.launch = function()
-	os.start("/home/alex/.local/bin/Popcorn-Time-Ru");
+	os.start("/usr/bin/popcorntime");
 end
 
 actions.focus = function()
