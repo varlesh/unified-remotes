@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <row weight="2">
+      <tabs color="#424242">
+         <tab color="#1565C0">
+            <row>
+               <grid>
+                  <row>
+                     <button color="#424242" text="Movies" ontap="switchvideosource,movies" />
+                     <button color="#424242" text="Series" ontap="switchvideosource,tv" />
+                     <button color="#424242" text="Favorites" ontap="switchvideosource,favorite" />
+                  </row>
+               </grid>
+            </row>
+            <row>
+               <grid>
+                  <button text="SD/HD/4K" ontap="changequality" />
+                  <button text="On favorite" ontap="bookmarks" />
+                  <button text="Mark" ontap="watched" />
+               </grid>
+            </row>
+            <row>
+               <grid>
+                  <button icon="search" ontap="searching" />
+                  <button icon="docclose" ontap="clearsearch" />
+               </grid>
+            </row>
+            <row>
+               <grid>
+                  <button text="↑ Season" ontap="previousseason" />
+                  <button text="↓ Season" ontap="nextseason" />
+               </grid>
+            </row>
+            <row>
+               <grid>
+                  <button color="#9c27b0" text="Popcorn Time" ontap="launch" />
+                  <button color="#9c27b0" text="Focus" ontap="focus" />
+               </grid>
+            </row>
+            <row weight="1" />
+            <row weight="4">
+               <grid weight="3">
+                  <row>
+                     <button color="#009688" icon="up" ontap="up" />
+                  </row>
+                  <row>
+                     <button color="#009688" icon="left" ontap="left" />
+                     <button color="#009688" icon="right" ontap="right" />
+                  </row>
+                  <row>
+                     <button color="#009688" icon="down" ontap="down" />
+                  </row>
+               </grid>
+               <grid>
+                  <row>
+                     <button color="#009688" text="ОК" ontap="playpause" />
+                  </row>
+                  <row>
+                     <button color="#ff9800" icon="back" ontap="back" />
+                  </row>
+                  <row>
+                     <button color="#f44336" icon="power" ontap="close" />
+                  </row>
+               </grid>
+            </row>
+         </tab>
+      </tabs>
+   </row>
+</layout>

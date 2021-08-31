@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <row>
+      <button color="#424242" text="Board" ontap="board" />
+      <button color="#424242" text="Discover" ontap="discover" />
+      <button color="#424242" text="Library" ontap="library" />
+   </row>
+   <row>
+      <button color="#9c27b0" text="Stremio" ontap="stremio" />
+      <button color="#9c27b0" text="Focus" ontap="focus" />
+      <button color="#009688" icon="search" ontap="searching" />
+      <button color="#009688" icon="docclose" ontap="clearsearch" />
+   </row>
+   <row weight="1" />
+   <row weight="3">
+      <grid weight="4">
+         <row>
+            <button color="#009688" icon="up" ontap="up" />
+         </row>
+         <row>
+            <button color="#009688" icon="left" ontap="left" />
+            <button color="#009688" icon="playpause" ontap="playpause" />
+            <button color="#009688" icon="right" ontap="right" />
+         </row>
+         <row>
+            <button color="#009688" icon="down" ontap="down" />
+         </row>
+      </grid>
+      <grid>
+         <row>
+            <button color="#009688" text="ОК" ontap="ok" />
+         </row>
+         <row>
+            <button color="#ff9800" icon="back" ontap="back" />
+         </row>
+         <row>
+            <button color="#f44336" icon="power" ontap="close" />
+         </row>
+      </grid>
+   </row>
+</layout>
