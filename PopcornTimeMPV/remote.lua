@@ -23,6 +23,7 @@ end
 
 actions.back = function()
 	kb.stroke("esc");
+    script.default("killall -9 mpv");
 end
 
 actions.changequality = function()
